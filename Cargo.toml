@@ -1,8 +1,9 @@
 [package]
 name = "hds"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Edwin Svensson <hdsrs@olback.net>"]
 edition = "2021"
+documentation = "https://docs.rs/hds/latest/hds/"
 description = "Heapless Data Structures for `no_std` environments"
 homepage = "https://github.com/olback/hds-rs"
 repository = "https://github.com/olback/hds-rs"
