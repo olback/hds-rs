@@ -1,6 +1,6 @@
 [package]
 name = "hds"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Edwin Svensson <hdsrs@olback.net>"]
 edition = "2021"
 description = "Heapless Data Structures for `no_std` environments"
@@ -9,8 +9,15 @@ repository = "https://github.com/olback/hds-rs"
 readme = "README.md"
 keywords = ["no_std", "embedded", "data-structures"]
 categories = ["embedded", "no-std", "data-structures"]
-license = "APACHE-2.0 OR MIT"
+license = "Apache-2.0 OR MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[package.metadata.docs.rs]
+features = ["std"]
+
+[features]
+default = []
+std = []
 
 [dependencies]
