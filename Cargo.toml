@@ -7,7 +7,7 @@ description = "Heapless Data Structures for `no_std` environments"
 homepage = "https://github.com/olback/hds-rs"
 repository = "https://github.com/olback/hds-rs"
 readme = "README.md"
-keywords = ["no_std", "embedded", "data structures"]
+keywords = ["no_std", "embedded", "data-structures"]
 categories = ["embedded", "no-std", "data-structures"]
 license = "APACHE-2.0 OR MIT"
 
