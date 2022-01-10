@@ -1,9 +1,13 @@
-#![cfg_attr(not(feature = "std"), no_std)]
+#![cfg_attr(all(not(test), not(feature = "std")), no_std)]
 #![feature(
     maybe_uninit_uninit_array,
     maybe_uninit_array_assume_init,
     const_fn_trait_bound
 )]
+
+#[cfg(feature = "alloc")]
+extern crate alloc;
+
 mod error;
 mod kv;
 mod queue;

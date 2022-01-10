@@ -1,6 +1,6 @@
 [package]
 name = "hds"
-version = "0.2.1"
+version = "0.3.0"
 authors = ["Edwin Svensson <hdsrs@olback.net>"]
 edition = "2021"
 documentation = "https://docs.rs/hds/latest/hds/"
@@ -19,6 +19,7 @@ features = ["std"]
 
 [features]
 default = []
-std = []
+alloc = []
+std = ["alloc"]
 
 [dependencies]
